@@ -40,7 +40,7 @@ const AddUser = () => {
                 return;
             }
 
-            const response = await axios.get("http://localhost:4001/api/v1/subscriptions", {
+            const response = await axios.get("http://35.173.201.89/api/v1/subscriptions", {
                 headers: {
                     Authorization: `Bearer ${token}`,
                 },
@@ -72,7 +72,7 @@ const AddUser = () => {
             }
 
             const response = await axios.post(
-                "http://localhost:4001/api/v1/admin/users",
+                "http://35.173.201.89/api/v1/admin/users",
                 formData,
                 {
                     headers: {

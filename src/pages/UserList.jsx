@@ -20,7 +20,7 @@ const UserList = () => {
                 console.error("No token found. Please log in again.");
                 return;
             }
-            const response = await axios.get("http://localhost:4001/api/v1/admin/users", {
+            const response = await axios.get("http://35.173.201.89/api/v1/admin/users", {
                 headers: {
                     Authorization: `Bearer ${token}`,
                 },  
@@ -44,7 +44,7 @@ const UserList = () => {
             }
 
             // Make DELETE request to API
-            await axios.delete(`http://localhost:4001/api/v1/admin/user/${userId}`, {
+            await axios.delete(`http://35.173.201.89/api/v1/admin/user/${userId}`, {
                 headers: {
                     Authorization: `Bearer ${token}`,
                 },

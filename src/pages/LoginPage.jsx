@@ -17,7 +17,7 @@ const LoginPage = () => {
         e.preventDefault();
         try {
             // Correct the URL to use http://localhost:4001
-            const response = await axios.post("http://localhost:4001/api/v1/login", credentials);
+            const response = await axios.post("http://35.173.201.89/api/v1/login", credentials);
             const { scope } = response.data.data;
             console.log(response.data.data.accessToken)
             // Save user details and token in localStorage

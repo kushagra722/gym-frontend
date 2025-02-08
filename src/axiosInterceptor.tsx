@@ -3,7 +3,7 @@
 // import "react-toastify/dist/ReactToastify.css";
 
 // const axiosInstance = axios.create({
-//     baseURL: "http://localhost:4001/api/v1", // Your API base URL
+//     baseURL: "http://35.173.201.89/api/v1", // Your API base URL
 // });
 
 // // Axios interceptor for requests
