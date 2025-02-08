@@ -1,0 +1,54 @@
+.container {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .card {
+    display: inline-block;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 400px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+  }
+  
+  p {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  .active {
+    color: #27ae60;
+    font-weight: bold;
+  }
+  
+  .expired {
+    color: #e74c3c;
+    font-weight: bold;
+  }
+  
+  .renewButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-top: 10px;
+  }
+  
+  .renewButton:hover {
+    background-color: #2980b9;
+  }
+  

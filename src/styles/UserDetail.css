@@ -1,0 +1,94 @@
+/* Container Styling */
+.user-detail-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+/* Back Button */
+.back-btn {
+    padding: 12px 20px;
+    background-color: #fff;
+    color: #4CAF50;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    transition: transform 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.back-btn:hover {
+    transform: scale(1.05);
+}
+
+.back-btn:focus {
+    outline: none;
+}
+
+/* User Detail Card */
+.user-detail-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+.user-detail-card:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Styling for the user info text */
+.user-info p {
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.user-info strong {
+    color: #2575fc;
+    font-weight: 600;
+}
+
+.user-info .section {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Add some space between sections */
+.user-info .section + .section {
+    margin-top: 20px;
+}
+
+/* Media Query for Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .user-detail-card {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .back-btn {
+        width: 100%;
+    }
+}
